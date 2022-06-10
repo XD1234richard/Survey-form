@@ -1,0 +1,78 @@
+body {
+    background-image: url(Images/employee-meeting.jpg);
+    height: auto;
+    width: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.form{
+    border-radius: 1.50%;
+    margin-top: 9vw;
+    padding: 2%;
+    background-color: rgba(240, 248, 255, 0.575);
+    position: absolute;
+    width: 50%;
+    left: 25%;
+}
+label{
+    margin-top: 1%;
+    margin-bottom: .50%;
+    display: block;
+}
+input {
+    border-radius: .50vw;
+    border: .10vw solid black; 
+    height: 3vw;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(250, 235, 215, 0.164);
+}
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+}
+select {
+    width: 100%;
+    height: 3vw;
+    border-radius: .50vw;
+    background-color: rgba(250, 235, 215, 0.164);
+}
+.class  {
+    display: flex;
+    align-items: left;
+    margin: 0;
+    margin-left: 1%;
+}
+.checkboxmark{
+    margin-right: 1%;
+    margin-left: 2%;
+    width: 1.50vw;
+    
+    
+}
+.checkboxselect{
+    display: flex;
+    align-items: center;
+}
+.toptext{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.548);
+}
+.toptext p{
+    color: aquamarine;
+    font-style: italic;
+}
+blockquote {
+    text-align: center;
+    position: absolute;
+    margin-top: 3vw;
+    left: 14%;
+    
+}
+
+
